@@ -69,11 +69,10 @@
 <body>
 	<script type="text/javascript">
 		var len = window.history.length;
-		alert(len);
-		// if ( len <=1){
-		// 	//from share
-		// 	location.href = "./test.html";
-		// }
+		if ( len <=1){
+			//from share
+			location.href = "./test.html";
+		}
 	</script>
 	<img id="bg" onclick="showShare();" src="./imgs/activity-bg.jpg" alt="">
 	<img id="bg-left" onclick="showShare();" src="./imgs/share.png" alt="">
