@@ -25,10 +25,18 @@
 			/*background-image: url("./imgs/index.jpg");
     		background-repeat: no-repeat;*/
 		}
+		#bg-quote-title {
+		  position: fixed;
+		  left: 0;
+		  top:2%;
+		  /* Preserve aspet ratio */
+		  max-width: 100%;
+		  max-height: 100%;
+		}
 		#bg-quote {
 		  position: fixed;
 		  left: 0;
-		  top:5%;
+		  top: 7%;
 		  /* Preserve aspet ratio */
 		  max-width: 100%;
 		  max-height: 100%;
@@ -48,23 +56,24 @@
 		  width: 100%;
 		}
 		.answer-chose-a{
-		  top: 7%; 
+		  top: 9%; 
 		}
 		.answer-chose-b{
-		  top: 15%; 
+		  top: 17%; 
 		}
 		.answer-chose-c{
-		  top: 23%; 
+		  top: 25%; 
 		}
 		.answer-chose-d{
-		  top: 31%; 
+		  top: 33%; 
 		}
 		.answer-chose-e{
-		  top: 39%; 
+		  top: 41%; 
 		}
 	</style>
 </head>
 <body>
+	<img id="bg-quote-title" src="./imgs/what-title.png" alt="">
 	<img id="bg-quote" src="./imgs/what-quote.png" alt="">
 	<img id="bg-quote-a" onclick="goResult('a');" class="answer-chose answer-chose-a" src="./imgs/what-a.png" alt="">
 	<img id="bg-quote-b" onclick="goResult('b');" class="answer-chose answer-chose-b" src="./imgs/what-b.png" alt="">
